@@ -9,14 +9,15 @@
 <body>
     <nav class="navbar">
         <a href="../index.html">Back to Landing</a>
-        <a href="CausCrypto.html">CausCrypto</a>
-        <a href="StkView.html" class="active">StkView</a>
         <a href="FluxCat.html">FluxCat</a>
         <a href="XrdQty.html">XrdQty</a>
+        <a href="HypoGen.html">HypoGen</a> 
+        <a href="StkView.html" class="active">StkView</a>
+        <a href="CausCrypto.html">CausCrypto</a>
     </nav>
     <div class="main-content">
         <div class="container">
-            <h1>StkView Project Portfolio</h1>
+            <h1>StkView Project</h1>
             <p>This a comprehensive quantitative analysis tool that takes raw stock‑price CSV files, cleans and normalizes the data, then performs a series of statistical, risk‑management and predictive calculations that are core to modern finance.</p>
             <p>The first step loads the CSV, parses dates, converts string‑based numbers to proper floating‑point values, and imputes missing observations with column means, which guarantees that later calculations are not distorted by incomplete records. Descriptive statistics follow, providing mean, standard deviation, minimum and maximum for each price series, giving analysts a quick sense of central tendency, dispersion and overall volatility—foundations for any further quantitative work.<p>
             <p>The simple moving average (SMA) is calculated by taking the arithmetic mean of a fixed‑length window of price points, and it forms the backbone of the moving‑average lines plotted in the technical‑indicator section of StkView.py. By smoothing out short‑term price noise, the SMA reveals the underlying trend direction: an upward‑sloping SMA indicates a bullish bias, while a downward‑sloping SMA signals a bearish bias. Traders and analysts use the SMA to generate simple entry and exit cues — commonly a short‑term SMA crossing above a longer‑term SMA suggests a buying opportunity, and a cross below signals a sell or short signal. Because it relies only on price data and a straightforward averaging rule, the SMA is easy to interpret, widely supported across trading platforms, and serves as a foundational technical tool for trend following, volatility assessment, and the construction of more complex strategies such as moving‑average crossover systems. A plot for the stock of Advanced Micro Devices is shown here:</p>

@@ -42,7 +42,7 @@
         let resume = `{
   "person": {
     "name": "Dr. Markus Schindler",
-    "title": "Industrial AI Expert | PhD"
+    "title": "Applied AI Engineer | PhD"
   },
   "contact": {
     "email": "schindler-markus@freenet.de",
@@ -52,21 +52,15 @@
     }
   },
   "languages": [
-    {
-      "language": "German",
-      "proficiency": "Native"
-    },
-    {
-      "language": "English",
-      "proficiency": "Professional Working Proficiency"
-    }
+    { "language": "German",  "proficiency": "Native" },
+    { "language": "English", "proficiency": "Professional Working Proficiency" }
   ],
-  "summary": "Industrial AI Expert and PhD with 15+ years of experience bridging the gap between physical system dynamics and Artificial Intelligence. Specializing in 
-Physics-Informed Machine Learning (PIML) and hybrid modeling frameworks that integrate rigorous numerical analysis with deep learning. Proven track record in solving the 'black 
-box' problem of AI to optimize R&D lifecycles, reduce raw material consumption, and drive operational efficiency in high-stakes industrial settings.",
+
+  "summary": "Applied AI Engineer and PhD (Chemistry / Chemical Engineering) with 15+ years in industrial R&D. Specializes in simulation-based surrogate modelling: high-fidelity numerical solvers (FVM, Runge-Kutta, Godunov-splitting) generate physically consistent training data from which fast ML inference models (PyTorch, TensorFlow) are trained as production-ready surrogates for expensive simulations and physical experiments. Additionally designs LLM-based AI agents for multi-stage scientific reasoning. Proven impact: 30 % reduction in experimental overhead, 23 % reduction in raw-material consumption, and scalable R&D optimization in high-stakes chemical manufacturing.",
+
   "skills": {
     "programming": [
-      "Python (Expert)",
+      "Python (Advanced)",
       "C",
       "SQL",
       "Matlab",
@@ -75,17 +69,14 @@ box' problem of AI to optimize R&D lifecycles, reduce raw material consumption, 
       "Kivy"
     ],
     "ml_ai_frameworks": [
-      "Physics-Informed ML (PIML)",
       "PyTorch",
       "TensorFlow",
       "scikit-learn",
-      "Causal Inference",
-      "Pomegranate",
       "LSTM",
       "CNN",
-      "NN",
       "XGBoost",
-      "SVM"
+      "SVM",
+      "Pomegranate (Bayesian)"
     ],
     "numerical_methods": [
       "Numerical ODE/PDE Solvers",
@@ -116,10 +107,10 @@ box' problem of AI to optimize R&D lifecycles, reduce raw material consumption, 
     "infrastructure": [
       "Linux",
       "Unix",
-      "Lean Six Sigma (Green Belt)",
       "LaTeX"
     ]
   },
+
   "experience": [
     {
       "role": "Sr Research Scientist / Industrial AI Lead",
@@ -127,15 +118,11 @@ box' problem of AI to optimize R&D lifecycles, reduce raw material consumption, 
       "location": "Worms",
       "period": "04.2017 – present",
       "highlights": [
-        "Architected hybrid Physics-Informed ML (PIML) frameworks integrating Deep Learning (PyTorch, TensorFlow) with numerical ODEs/PDEs, reducing physical experimental 
-overhead by 30% through high-fidelity virtual prototyping.",
-        "Developed advanced numerical solvers (Orthogonal Collocation, Finite-Volume, Godunov-splitting) to eliminate the 'black box' nature of AI, ensuring model consistency 
-in high-dimensional transport and diffusion processes.",
-        "Engineered production-ready Python toolkits and end-to-end pipelines that translate theoretical numerical research into scalable, industrial-grade AI applications.",
-        "Developed a predictive analytics pipeline for chemical recipe optimization, resulting in a 23% reduction in global raw material consumption and significant cost 
-savings.",
-        "Orchestrated the deployment of AI-driven insights across interdisciplinary teams, translating complex quantitative outputs into operational strategies and scalable 
-manufacturing improvements."
+        "Developed simulation-based ML surrogate frameworks: high-fidelity numerical solvers (Orthogonal Collocation, Finite-Volume, Godunov-splitting) generate physically consistent training data; trained neural networks (PyTorch, TensorFlow) serve as fast inference surrogates replacing expensive simulations, reducing physical experimental overhead by 30 %.",
+        "Initiated design of LLM-agent workflows (LangChain, LangGraph, RAG) to automate multi-stage R&D reasoning – from raw experimental data to structured, testable hypotheses. Continued development as a self-directed project.",
+        "Engineered production-ready Python toolkits and end-to-end pipelines (NumPy, Pandas) that translate numerical research into scalable, industrial-grade ML applications. (ML/simulation scope is an add-on within a primarily R&D-focused role.)",
+        "Built a predictive analytics pipeline for chemical recipe optimisation, resulting in a 23 % reduction in global raw-material consumption and significant cost savings.",
+        "Orchestrated deployment of AI-driven insights across interdisciplinary teams, translating complex quantitative outputs into operational strategies and scalable manufacturing improvements."
       ]
     },
     {
@@ -145,8 +132,7 @@ manufacturing improvements."
       "period": "04.2013 – 03.2017",
       "highlights": [
         "Established data-driven quality standards for R&D processes by implementing quantitative statistical validation frameworks based on Lean Six Sigma methodologies.",
-        "Minimized experimental waste and optimized multi-variable chemical parameters by applying rigorous Design of Experiments (DoE), ensuring maximum information gain per 
-trial.",
+        "Minimized experimental waste and optimised multi-variable chemical parameters by applying rigorous Design of Experiments (DoE), ensuring maximum information gain per trial.",
         "Managed a team of 5 staff members focusing on data-driven process reliability and statistical quality control.",
         "Acted as Subject Matter Expert for complex system dynamics and global technical problem solving within the adsorbents business."
       ]
@@ -157,51 +143,62 @@ trial.",
       "location": "Worms",
       "period": "08.2011 – 03.2013",
       "highlights": [
-        "Pioneered the modeling of complex phase transformations and thermal kinetics in zeolite ion-exchange, optimizing porosity generation for high-performance chemical 
-applications.",
-        "Enhanced Fluidized Catalytic Cracking (FCC) efficiency by designing and validating high-precision system modifications for light-oil conversion through a data-driven 
-experimental approach."
+        "Performed complex phase transformations and thermal kinetics in zeolite ion-exchange, optimising porosity generation for high-performance chemical applications.",
+        "Enhanced Fluidized Catalytic Cracking (FCC) efficiency by designing and validating high-precision system modifications for light-oil conversion through a data-driven experimental approach."
       ]
     }
   ],
+
+  "self_study": [
+    {
+      "title": "Python, Applied ML & LLM Agents – Self-directed Study",
+      "period": "since 2023",
+      "description": "Self-taught Python, NumPy/Pandas, PyTorch, scikit-learn in spare time. Built and industrialised simulation→ML surrogate pipelines (see FluxCat, XrdQty). Additionally designed and developed LLM-based AI agents (LangChain, LangGraph, RAG, multi-stage reasoning graphs) for scientific hypothesis generation and structured data-to-insight workflows. Agent development maintained as a personal project (HypoGen, GitHub)."
+    }
+  ],
+
   "education": [
     {
       "degree": "PhD (Dr. rer. nat.)",
       "field": "Chemistry / Chemical Engineering",
-      "institution": "TU of Kaiserslautern",
+      "institution": "TU Kaiserslautern",
       "period": "2006 – 2011",
       "thesis": "Investigations into the selective adsorption of carbon dioxide from gas mixtures on metal-organic coordination polymers"
     },
     {
       "degree": "Diploma in Chemistry",
       "field": "Chemistry",
-      "institution": "TU of Kaiserslautern",
+      "institution": "TU Kaiserslautern",
       "period": "2000 – 2006"
     }
   ],
+
   "certifications": [
     "Lean Six Sigma – Green Belt",
-    "Project Management Training PDI",
+    "Project Management Training (PDI)",
     "Ninth-House – Front Line Leadership"
   ],
+
   "github_projects": [
     {
+      "name": "HypoGen",
+      "description": "LLM-based AI agent for automated scientific hypothesis generation. Multi-stage reasoning graph (LangChain / LangGraph) with RAG over raw experimental datasets, transforming unstructured research inputs into structured, testable hypotheses. Architecture designed for potential integration into industrial R&D pipelines."
+    },
+    {
       "name": "CausCrypto",
-      "description": "Causal inference analysis of cryptocurrencies using Bayesian networks, DAGs, and propensity scoring to evaluate the efficacy of different momentum 
-strategies."
+      "description": "Causal-inference analysis of cryptocurrency markets using Bayesian networks, DAGs, and propensity scoring to evaluate momentum-strategy efficacy."
     },
     {
       "name": "StkView",
-      "description": "Quantitative framework for stock analysis implementing Monte Carlo simulations for risk assessment and LSTM-based time-series prediction."
+      "description": "Quantitative stock-analysis framework: Monte Carlo risk assessment combined with LSTM-based time-series prediction."
     },
     {
       "name": "FluxCat",
-      "description": "High-performance simulation approach for transient system behavior. Implements Finite-Volume algorithms and Runge-Kutta integration to solve coupled 
-non-linear PDEs."
+      "description": "High-performance solver for transient, multi-dimensional transport phenomena. Finite-Volume discretisation with Runge-Kutta time integration for coupled non-linear PDEs – used as synthetic-data generator for ML surrogates."
     },
     {
       "name": "XrdQty",
-      "description": "Synthetic data generation pipeline using physical simulation to train Convolutional Neural Networks (CNN) for automated phase quantification."
+      "description": "End-to-end surrogate pipeline: physical simulation generates synthetic XRD patterns → trained CNN performs automated phase quantification, replacing time-consuming manual analysis."
     }
   ]
 }`;
