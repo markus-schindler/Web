@@ -41,6 +41,11 @@ p {
     text-align: justify;
 }
 
+p.tight {
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+
 /* Navigation Bar */
 .navbar {
     position: fixed;
